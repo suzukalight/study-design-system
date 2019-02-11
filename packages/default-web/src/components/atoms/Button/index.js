@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
 import dt from '../../../design-tokens';
-import { ty, clWhenHasVariant } from '../../../../../design-system/src/utils/styles';
+import { styled, ty, clWhenHasVariant } from '../../../../../design-system/src/utils/styles';
 
 export const StyledButton = styled.button`
   ${clWhenHasVariant('primary', dt.cl.semantic.primary, 'main', 'light2')}
