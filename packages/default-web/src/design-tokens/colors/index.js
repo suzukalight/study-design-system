@@ -33,7 +33,7 @@ export const palette = {
   },
 };
 
-export const semantic = {
+export const theme = {
   primary: palette.green,
   secondary: palette.blue,
 };
@@ -42,7 +42,7 @@ export const shadows = {};
 
 export const colors = {
   palette,
-  semantic,
+  theme,
   shadows,
 };
 

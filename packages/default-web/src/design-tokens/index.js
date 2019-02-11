@@ -1,4 +1,4 @@
-import { palette, semantic, shadows } from './colors';
+import { palette, theme, shadows } from './colors';
 import { sizings, spacings, raduises } from './sizings';
 import { typographies } from './typographies';
 import { mediaQueries } from './media-queries';
@@ -7,7 +7,7 @@ import { zIndexes } from './z-indexes';
 const token = {
   cl: {
     palette,
-    semantic,
+    theme,
     shadows,
   },
   sz: sizings,

@@ -5,8 +5,8 @@ import dt from '../../../design-tokens';
 import { styled, ty, clWhenHasVariant } from '../../../../../design-system/src/utils/styles';
 
 export const StyledButton = styled.button`
-  ${clWhenHasVariant('primary', dt.cl.semantic.primary, 'main', 'light2')}
-  ${clWhenHasVariant('secondary', dt.cl.semantic.secondary, 'main', 'light2')}
+  ${clWhenHasVariant('primary', dt.cl.theme.primary, 'main', 'light2')}
+  ${clWhenHasVariant('secondary', dt.cl.theme.secondary, 'main', 'light2')}
 
   border-radius: ${dt.rd.m};
   padding: ${dt.sp.xxs} ${dt.sp.m};
