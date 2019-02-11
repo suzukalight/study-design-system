@@ -1,11 +1,11 @@
 {
-  "name": "@study-design-system/default-web",
+  "name": "@study-design-system/design-system",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
   "author": "mkubara <masahiko_kubara@relationsgroup.co.jp>",
-  "homepage": "https://github.com/suzukalight/study-design-system#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/design-system.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,20 +21,17 @@
     "url": "git+https://github.com/suzukalight/study-design-system.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "prettier": "prettier --write \"./src/**/*.{js,jsx,json}\""
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/suzukalight/study-design-system/issues"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4"
-  },
+  "homepage": "https://github.com/suzukalight/study-design-system#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "param-case": "^2.1.1",
     "polished": "^2.3.3",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "styled-components": "^4.1.3"
