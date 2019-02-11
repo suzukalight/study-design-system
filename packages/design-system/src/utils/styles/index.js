@@ -1,7 +1,9 @@
-import { css } from 'styled-components';
+import styled, { css } from 'styled-components';
 import paramCase from 'param-case';
 
-import { hasVariant } from '../classnames';
+import { hasVariant } from '../variant';
+
+export { styled, css };
 
 const propsTypography = ['fontFamily', 'fontSize', 'fontWeight', 'lineHeight'];
 
