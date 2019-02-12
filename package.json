@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "docz": "docz dev"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
     "@babel/preset-env": "^7.3.1",
