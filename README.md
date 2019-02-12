@@ -9,4 +9,4 @@ yarn docz
 ```
 
 ## docz
-http://localhost:3048/design-tokens/colors
+http://localhost:3048
