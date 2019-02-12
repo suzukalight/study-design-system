@@ -5,8 +5,22 @@
 ```
 yarn install
 yarn bootstrap
-yarn docz
 ```
 
-## docz
-http://localhost:3048
+## dev-server
+
+```
+yarn docz:dev
+```
+
+you can see docs of develop build on http://localhost:3048
+
+## build
+
+```
+yarn docz:build
+npx http-server ./.docz/dist/
+```
+
+you can see docs of production build on http://localhost:8081
+
